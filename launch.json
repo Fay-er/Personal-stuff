@@ -1,0 +1,10 @@
+{
+    "configurations": {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch server",
+        "program": "${workspaceFolder}/copy.js",
+        "console": "integratedTerminal",
+        "skipFiles": ["<node_internals>/**"]
+    }
+}
