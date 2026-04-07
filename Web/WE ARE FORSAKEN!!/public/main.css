@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(10, 10, 10);
+    justify-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.homeBar{
+    width: 98%; 
+    height: 50px;
+    
+    background-color: rgb(25, 25, 25);
+
+    box-shadow: 0 0 2px white;
+    border-radius: 5px;
+
+    margin-bottom: 2%;
+
+    justify-items: center;
+    align-content: center;
+
+    > a{
+        color: lavender;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: large;
+
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+
+    > .title{
+        color: rgb(0, 255, 0);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: larger;
+
+        border-right: 1px;
+        border-right-style: solid;
+        border-color: rgb(100, 100, 100);
+        padding: 7px;
+        margin-bottom: 20px;
+        margin-left: 2%;
+        margin-top: 25%;
+        margin-right: 50%;
+    }
+
+    > .logo{
+        height: 100px;
+        width: 100px;
+        margin-top: 15%;
+
+        > img{
+            height: 100%;
+        }
+    }
+}

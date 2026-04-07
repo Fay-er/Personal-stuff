@@ -1,0 +1,68 @@
+.login{
+    height: 75%;
+    width: 50%;
+
+    justify-items: center;
+    text-align: center;
+
+    background-color: rgb(50, 50, 50);
+
+    border-radius: 8px;
+    box-shadow: 0 0 3px rgb(0, 255, 0);
+
+    color: rgb(0, 220, 0);
+    font-size: 24;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    > form{
+        > label{
+            color: rgb(0, 150, 200);
+            font-size: 28;
+            font-weight: 400;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+
+        > input{
+            text-align: center;
+            text-indent: none;
+            border: none;
+            outline: none;
+
+            height: 10%;
+            width: 200%;
+
+            margin-top: 5%;
+            margin-left: -50%;
+            margin-bottom: 20%;
+
+            background-color: rgb(25, 25, 25);
+            color: rgb(151, 252, 57);
+            font-size: 20;
+
+            border-radius: 8px;
+            transition-duration: 0.5s;
+        }
+
+        > button{
+            height: 10%;
+            width: 150%;
+
+            margin-top: 15%;
+            margin-left: -25%;
+
+            background-color: rgb(10, 10, 10);
+            color: rgb(0, 255, 0);
+            font-size: 24;
+            font-weight: 400;
+            font-family: 'Courier New', Courier, monospace;
+
+            border-radius: 8px;
+            border: none;
+            transition-duration: 0.5s;
+        }
+
+        > button:hover{
+            background-color: rgb(25, 25, 25);
+        }
+    }
+}

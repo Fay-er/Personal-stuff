@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(green, white, white, orange);
+}
+
+.centerGradient{
+    opacity: 100%;
+    background: radial-gradient(blue, white);
+}
+
+p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+img{
+    border-radius: 8px;
+    border: 2px solid blue;
+}

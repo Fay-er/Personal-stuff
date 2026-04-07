@@ -1,0 +1,21 @@
+h1{
+	color: blue;
+}
+
+h2{
+	color: maroon;
+}
+
+ol{
+	& > li{
+		color: green;
+	}
+}
+
+ul{
+	margin-left: 10%;
+
+	& > li{
+		color: red;
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "WE ARE FORSAKEN!!",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --watch ../server.js"
+  },
+  "author": "Fay-er",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

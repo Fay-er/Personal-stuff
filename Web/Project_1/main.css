@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(225, 225, 225);
+}
+
+a{
+    text-decoration: none;
+
+    &:visited{
+        color: rgb(75, 75, 75)
+    }
+}
+
+.topBar{
+    position: static;
+    top: 0;
+
+    justify-content: space-evenly;
+    align-items: space-evenly;
+
+    background-color: rgb(200, 200, 200);
+
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(100, 100, 100);
+
+    & > a{
+        margin-left: 2%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+
+        color: rgb(75, 75, 75);
+    }
+}
+
+.homeButton{
+    font-size: 24px;
+
+    padding-right: 3%;
+    border-right: solid 1px rgb(75, 75, 75);
+}
+
+.signInDiv{
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(200, 200, 200);
+
+    border-radius: 8px;
+
+    margin: 10%;
+
+    & > form{
+        display: flex;
+        justify-content: center;
+        align-items: space-evenly;
+
+        & > input{
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: pink;
+}
+
+fieldset{
+    color: green;
+}
+
+legend{
+    color: green;
+}
+
+#email_box{
+    margin-top: 15px;
+    margin-left: 20px;
+}

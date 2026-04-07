@@ -1,0 +1,25 @@
+h1{
+    color: purple;
+}
+
+h4, h5, p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.blank{
+    padding-right: 75px;
+}
+
+caption{
+    color: red;
+    font-weight: 600;
+}
+
+table{
+    margin-left: 50%;
+}
+
+a{
+    color: darkred;
+}
